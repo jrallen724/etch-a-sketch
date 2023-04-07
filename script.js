@@ -1,9 +1,10 @@
-const container = document.getElementById('container');
+const container = document.querySelector('#container');
+
 
 function createGrid (size) {    
     for (let i = 0; i < size; i++) {
-        let grid = documnet.createElement('div');
-        container.appendChild(grid);
+        const div = document.createElement('div');
+        container.appendChild(div);
     }
 }
 
